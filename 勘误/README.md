@@ -4,6 +4,8 @@
 
 * 第17页，L=D-A 矩阵里的元素第三行第二列应为-1
 
+* 第22页，$x * f = U(U^T x \odot \theta) = ...$ 中$x * f$应为$x * g$，与上一段的公式保持一致。
+
 * 第26页，3.1.3节中的公式3.13， 最后一行的加号应为减号, 即$\theta_0 x + \theta_1 D^{-1/2}A D^{-1/2}x$ 应改为 $\theta_0 x - \theta_1 D^{-1/2}A D^{-1/2}x$
 
 * 第68页最后一个公式，少了一个等号。应该改为$p(A|Z) = \prod_{i=1}^n \prod_{j=1}^n p(A_{ij}|z_i,z_j)) = \prod_{i=1}^n \prod_{j=1}^n \text{sigmoid}(z_i^\text{T} z_j)$
